@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Checkout</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h2>Checkout</h2>
+
+<div id="checkout-items"></div>
+
+<h3 id="checkout-total"></h3>
+
+<h3>Select Payment Method</h3>
+
+<label>
+  <input type="radio" name="payment" value="UPI" checked>
+  UPI
+</label>
+
+<label>
+  <input type="radio" name="payment" value="Card">
+  Credit / Debit Card
+</label>
+
+<br><br>
+
+<button onclick="placeOrder()">Place Order</button>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register | MyStartupStore</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="login-page">
+
+<div class="login-container">
+  <div class="login-card">
+    <h2>Create Account 🚀</h2>
+    <p class="subtitle">Join us and start shopping</p>
+
+    <form id="registerForm">
+
+      <div class="input-group">
+        <input type="text" id="name" required>
+        <label>Full Name</label>
+      </div>
+
+      <div class="input-group">
+        <input type="email" id="regEmail" required>
+        <label>Email Address</label>
+      </div>
+
+      <div class="input-group">
+        <input type="password" id="regPassword" required>
+        <label>Password</label>
+        <span class="toggle-password" onclick="toggleRegPassword()">👁</span>
+      </div>
+
+      <div class="input-group">
+        <input type="password" id="confirmPassword" required>
+        <label>Confirm Password</label>
+      </div>
+
+      <button type="submit" class="btn-login">Register</button>
+    </form>
+
+    <p class="register-link">
+      Already have an account? <a href="login.html">Login</a>
+    </p>
+  </div>
+</div>
+
+<script src="js/register.js"></script>
+</body>
+</html>

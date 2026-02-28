@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MyStartupStore</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="logo">MyStartupStore</div>
+
+  <input type="text" onkeyup="searchProducts(this.value)" placeholder="Search products">
+  <div class="nav-links" id="nav-links"></div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>Premium Tech Store</h1>
+    <p>Modern products for modern lifestyle</p>
+    <button onclick="scrollToProducts()">Shop Now</button>
+  </div>
+</section>
+
+
+<div class="container">
+  <h2>Trending Products</h2>
+  <div class="products" id="product-list"></div>
+</div>
+
+<div class="toast" id="toast">Added to Cart</div>
+
+<footer>
+  <p>© 2026 MyStartupStore. Built with ❤️</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
