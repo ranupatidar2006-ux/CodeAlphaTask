@@ -1,0 +1,115 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* BODY */
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+}
+
+/* NAVBAR */
+.navbar {
+  backdrop-filter: blur(10px);
+  background: rgba(255,255,255,0.1);
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.navbar h2 {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.navbar button {
+  background: white;
+  color: #764ba2;
+  border-radius: 20px;
+  padding: 8px 16px;
+}
+
+/* MAIN CONTAINER */
+.container {
+  width: 500px;
+  margin: 30px auto;
+}
+
+/* CARD */
+.card {
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(12px);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* INPUTS */
+textarea, input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin: 8px 0;
+  outline: none;
+}
+
+/* BUTTON */
+button {
+  background: linear-gradient(45deg, #ff6a00, #ee0979);
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* POST IMAGE */
+.post-img {
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+/* LIKE BUTTON */
+.like-btn {
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* AUTH PAGES */
+.auth-box {
+  width: 350px;
+  margin: 100px auto;
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(12px);
+  padding: 30px;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+}
+
+.auth-box h2 {
+  margin-bottom: 15px;
+}
